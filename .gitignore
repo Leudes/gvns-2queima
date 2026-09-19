@@ -1,0 +1,7 @@
+*.o
+*.d
+
+gvns-2queima
+test_gvns
+heuristica_inicial/grau_relativo
+heuristica_inicial/grau_relativo_gatilho

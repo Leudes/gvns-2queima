@@ -1,0 +1,15 @@
+parameter,value
+instances,10
+trials_per_instance,10
+seeds,0-9
+gvns_time_limit_seconds,0.04
+gvns_kmax,5
+gvns_no_improvement_limit,100
+gvns_evaluations_per_neighborhood,100
+gvns_vnd_evaluations,2000
+brkga_reference,BRKGA/benchmark/results/quick_decoders/quick_decoders_raw.csv
+brkga_v5_reference,BRKGA/benchmark/results/v5_comparison/v5_mesmos_parametros_raw.csv
+brkga_v5_comparison_note,30 trials and long parameters; quality reference only
+gvns_vs_v4_better_equal_worse,36/56/8
+gvns_vs_best_of_four_brkga_better_equal_worse,30/59/11
+independently_validated_gvns_sequences,100/100
